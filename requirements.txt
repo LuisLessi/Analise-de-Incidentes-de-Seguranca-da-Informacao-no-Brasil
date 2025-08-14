@@ -1,0 +1,7 @@
+pandas>=2.0.0
+numpy>=1.24.0
+sqlalchemy>=2.0.0
+python-dotenv>=1.0.0
+kaggle>=1.5.12
+plotly>=5.14.0
+apache-superset>=2.1.0
