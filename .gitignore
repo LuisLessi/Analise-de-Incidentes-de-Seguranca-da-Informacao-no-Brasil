@@ -1,3 +1,4 @@
-venv/
+venv_analytics/
+venv_superset/
 **/.ipynb_checkpoints/
 .env
