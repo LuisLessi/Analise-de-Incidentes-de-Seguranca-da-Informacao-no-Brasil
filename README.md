@@ -102,7 +102,7 @@ notebooks/security_analysis.ipynb
 ## 🔍 Principais Insights
 
 ### 1. Tendência Anual de Incidentes
-![Total de Incidentes por Ano](assets/Total de Incidentes por Ano (2010-2019).png)   
+![Total de Incidentes por Ano](visualizations/plots/basic_annual.png)   
 
 - **Crescimento de 418%** entre 2010 (149.418 incidentes) e 2019 (773.964 incidentes)  
 - **Picos históricos**:  
@@ -113,7 +113,7 @@ notebooks/security_analysis.ipynb
 ---
 
 ### 2. Dominância de Tipos de Ataque
-![Distribuição em Pizza](assets/Distribuição dos Tipos de Ataque)  
+![Distribuição em Pizza](visualizations/plots/basic_pie.png)  
 
 | Tipo de Ataque | Participação | Destaque Histórico              |
 |----------------|--------------|----------------------------------|
@@ -124,7 +124,7 @@ notebooks/security_analysis.ipynb
 ---
 
 ### 3. Sazonalidade e Padrões Mensais
-![Padrões Mensais](assets/Incidentes por Mês e Ano)  
+![Padrões Mensais](visualizations/plots/manager_heatmap.png)  
 
 - **Junho**: Mês mais crítico em 3 dos 10 anos analisados 
 - **Q4**: Aumento médio de 22% nos incidentes
@@ -133,7 +133,7 @@ notebooks/security_analysis.ipynb
 ---
 
 ### 4. Evolução dos Top 3 Ataques
-![Top 3 Ameaças](assets/Evolução dos 3 Principais Tipos de Ataque) 
+![Top 3 Ameaças](visualizations/plots/manager_top3.png) 
 
 **Tendências chave**:  
 - **DOS**: Disparado em 2017-2019 (345k incidentes em 2019)
@@ -143,7 +143,7 @@ notebooks/security_analysis.ipynb
 ---
 
 ### 5. Correlações entre Ameaças
-![Ataques Coordenados](assets/Correlação entre Tipos de Ataque) 
+![Ataques Coordenados](visualizations/plots/advanced_corr.png) 
 
 **Relações significativas:**:  
 - **DOS ↔ Worm** (0.45): Indica ataques combinados
@@ -153,7 +153,7 @@ notebooks/security_analysis.ipynb
 ---
 
 ### 6. Mudanças na Composição
-![Ataques Coordenados](assets/Evolução da Composição dos Ataques (%)) 
+![% de compoição](visualizations/plots/advanced_composition.png) 
 
 **Mudanças estruturais:**:  
 - **2010-2015:** Scans >70% dos incidentes
