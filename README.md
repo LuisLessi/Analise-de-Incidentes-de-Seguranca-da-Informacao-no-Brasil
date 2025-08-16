@@ -145,7 +145,7 @@ notebooks/security_analysis.ipynb
 ### 5. Correlações entre Ameaças
 ![Ataques Coordenados](visualizations/plots/advanced_corr.png) 
 
-**Relações significativas:**:  
+**Relações significativas:**  
 - **DOS ↔ Worm** (0.45): Indica ataques combinados
 - **Scan ↔ Invasao** (0.22): Fase de reconhecimento → exploração
 - **Fraude ⊣ DOS** (-0.38): Grupos especializados distintos
@@ -155,7 +155,7 @@ notebooks/security_analysis.ipynb
 ### 6. Mudanças na Composição
 ![% de compoição](visualizations/plots/advanced_composition.png) 
 
-**Mudanças estruturais:**:  
+**Mudanças estruturais:**  
 - **2010-2015:** Scans >70% dos incidentes
 - **2016-2019:**
         DOS salta para 34.7%
